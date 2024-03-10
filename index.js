@@ -15,6 +15,7 @@ const handleNewRecord = (serialNumber, logData, time, teacher, period) => {
     $log.appendChild($record);
 };
 
+
 if (!window.NDEFReader) {
     $status.innerHTML = "<h4>Unsupported device!</h4>";
 }
